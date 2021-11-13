@@ -4,3 +4,16 @@
   align-items: center;
   justify-content: center;
 }
+
+.header {
+  text-align: center;
+  margin: 0;
+}
+
+.contacts_amount {
+  color: green;
+}
+
+.contacts_amount_zero {
+  color: red;
+}
