@@ -17,12 +17,10 @@ function Filter(/*{ onFilterChange }*/) {
       <h2 className={styles.header}>Contacts</h2>
       {totalContacts.length > 0 ? (
         <h4 className={styles.contacts_amount}>
-          {" "}
           (there are {totalContacts.length} contacts in your phonebook)
         </h4>
       ) : (
         <h4 className={styles.contacts_amount_zero}>
-          {" "}
           (there are no contacts in your phonebook, please add some)
         </h4>
       )}
